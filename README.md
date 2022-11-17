@@ -27,13 +27,13 @@ The web application is mobile responsive. I have included bootstrap library to m
 - Make and apply migrations by running python manage.py makemigrations and python manage.py migrate.
 - Create superuser with python manage.py createsuperuser. This step is optional.
 ![Screenshot 2022-11-17 174122](https://user-images.githubusercontent.com/96381612/202492617-254a0d58-52d3-4605-bab6-96b3dbde88e9.png)
-
+********************************************************************************************************************************************
 ![Screenshot 2022-11-17 174144](https://user-images.githubusercontent.com/96381612/202492662-c1d6d9c7-5104-434f-9429-2da56fe45b1f.png)
-
+********************************************************************************************************************************************
 ![Screenshot 2022-11-17 174208](https://user-images.githubusercontent.com/96381612/202492701-43dd65a8-3a5e-4e17-b50d-0daebf3c90f7.png)
-
+********************************************************************************************************************************************
 ![Screenshot 2022-11-17 175207](https://user-images.githubusercontent.com/96381612/202492749-f90f01d3-6397-483f-932e-b51a4224cab7.png)
-
+********************************************************************************************************************************************
 ## Files and directories
 - `questions` - application directory that handles the questions of the quiz
  - apps.py files: - This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases.
