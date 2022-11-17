@@ -35,26 +35,31 @@ The web application is mobile responsive. I have included bootstrap library to m
 ![Screenshot 2022-11-17 175207](https://user-images.githubusercontent.com/96381612/202492749-f90f01d3-6397-483f-932e-b51a4224cab7.png)
 ********************************************************************************************************************************************
 ## Files and directories
+
 - `questions` - application directory that handles the questions of the quiz
- - apps.py files: - This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases.
-  - `models.py`: contains 2 models: 
+
+- apps.py files: - This file deals with the application configuration of the apps. The default configuration is sufficient enough in most of the cases.
+
+- `models.py`: contains 2 models: 
     - the model Questions represents the question to be answered 
     - the model Answer represents the answers suggestions to be picked
+
 - `quiz_proj` (project directory)
-   - Manage.py file:
+   - `Manage.py` file:
    This file is used as a command-line utility and for deploying, debugging, or running the web application.This file contains code for runserver, makemigrations or migrations, etc. that we use in the shell. (Not changing anything here)
-   - init.py files:
+   - `init.py` files:
    This file is empty and remains that way. they are present only to tell that this particular directory is a package. (No changes to this file either)
-   - settings folder:
+   - `settings` folder:
    This file is present for adding all thr applications and the middleware application present. This also has informations about templates and databases. This is present in the main file of the Django web application.
-   - urls.py files:
+   - `urls.py` files:
    This file handles all the URLs of our Django web application. This file contains the lists of all the endpoints that we will have for our web application. Also, this files is like a link to the views in the app with the host web URL.
-   - admin.py files:
+   - `admin.py` files:
    Similar to the name of the file, this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored. (they are pre-built)
-   - wsgi folder:
+   - `wsgi` folder:
    This file mainly concerns with the WSGI server and is used for deploying the web application on to the servers similar to apache, etc. (No changes to this file as well)
-   - test.py files:
+   - `test.py` files:
    This file containts the code that contains different test cases for the application. It is used to test the working of the application. (did not implement tests in this web application)
+
 
 - `quizes`:  - application directory that enable to create quizes
    - `static/quizes` contains static contents:
@@ -68,9 +73,12 @@ The web application is mobile responsive. I have included bootstrap library to m
      - the QuizListView  display a particular quiz,
      - the quiz_data_view which display questions and answers related to the quiz,
      - the save_quiz_view which enables the submittion of the user' answers and his score
+
 - `results`: application directory that enable to get the quiz results of the user
    - `models.py`: contains the Result model which register each user with his quiz score 
+
 - `static`: which contains `styles.css`               
+
 - `templates`: contains the base.html
    - `base.html`: base template. All other tempalates extend it.
 
