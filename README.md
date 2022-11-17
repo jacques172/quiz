@@ -41,20 +41,20 @@ The web application is mobile responsive. I have included bootstrap library to m
     - the model Questions represents the question to be answered 
     - the model Answer represents the answers suggestions to be picked
 - `quiz_proj` (project directory)
-            - Manage.py file:
-            This file is used as a command-line utility and for deploying, debugging, or running the web application.This file contains code for runserver, makemigrations or migrations, etc. that we use in the shell. (Not changing anything here)
-            - init.py files:
-            This file is empty and remains that way. they are present only to tell that this particular directory is a package. (No changes to this file either)
-            - settings folder:
-            This file is present for adding all thr applications and the middleware application present. This also has informations about templates and databases. This is present in the main file of the Django web application.
-            - urls.py files:
-            This file handles all the URLs of our Django web application. This file contains the lists of all the endpoints that we will have for our web application. Also, this files is like a link to the views in the app with the host web URL.
-            - admin.py files:
-            Similar to the name of the file, this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored. (they are pre-built)
-            - wsgi folder:
-            This file mainly concerns with the WSGI server and is used for deploying the web application on to the servers similar to apache, etc. (No changes to this file as well)
-            - test.py files:
-            This file containts the code that contains different test cases for the application. It is used to test the working of the application. (did not implement tests in this web application)
+   - Manage.py file:
+   This file is used as a command-line utility and for deploying, debugging, or running the web application.This file contains code for runserver, makemigrations or migrations, etc. that we use in the shell. (Not changing anything here)
+   - init.py files:
+   This file is empty and remains that way. they are present only to tell that this particular directory is a package. (No changes to this file either)
+   - settings folder:
+   This file is present for adding all thr applications and the middleware application present. This also has informations about templates and databases. This is present in the main file of the Django web application.
+   - urls.py files:
+   This file handles all the URLs of our Django web application. This file contains the lists of all the endpoints that we will have for our web application. Also, this files is like a link to the views in the app with the host web URL.
+   - admin.py files:
+   Similar to the name of the file, this file is used for registering the models into the django administration. The models that are present have a superuser/admin who can control the information that is being stored. (they are pre-built)
+   - wsgi folder:
+   This file mainly concerns with the WSGI server and is used for deploying the web application on to the servers similar to apache, etc. (No changes to this file as well)
+   - test.py files:
+   This file containts the code that contains different test cases for the application. It is used to test the working of the application. (did not implement tests in this web application)
 
 - `quizes`:  - application directory that enable to create quizes
    - `static/quizes` contains static contents:
