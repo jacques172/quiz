@@ -23,8 +23,8 @@ The web application is mobile responsive. I have included bootstrap library to m
 
 
 ## Installation
-- Install project dependencies by running pip install -r requirements.txt.Dependencies include Django
-- Make and apply migrations by running python manage.py makemigrations and python manage.py migrate.
+- Install project dependencies by running `pip install -r requirements.txt`.Dependencies include Django
+- Make and apply migrations by running `python manage.py makemigrations` and `python manage.py migrate`.
 - Create superuser with python manage.py createsuperuser. This step is optional.
 ![Screenshot 2022-11-17 174122](https://user-images.githubusercontent.com/96381612/202492617-254a0d58-52d3-4605-bab6-96b3dbde88e9.png)
 ********************************************************************************************************************************************
